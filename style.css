@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 15px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: black;
+}
+.logo{
+padding: 8px;
+}
+nav{
+    margin-left: -500px;
+    margin-top: 10px;
+}
+nav ul li{
+    width:auto;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+}
+nav ul li a{
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+nav ul li a img{
+    width: 10px;
+    margin-left: 5px;
+}
+.buttons{
+    float: right;
+}
+.search{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-right: 5px;
+    background: none;
+}
+.search .fa-search{
+    color: #fff;
+    font-size: 15px;
+}
+.pay{
+width: 50px;
+height: 30px;
+background-color: red;
+border: none;
+border-radius: 5px;
+text-align: center;
+color: #fff;
+font-size: medium;
+margin-top: 15px;
+cursor: pointer;
+outline: none;
+}
+.signIn{
+    width: auto;
+    padding: 5px;
+    background-color:black;
+    color: #fff;
+    font-size: 13px;
+    font-weight:500;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.Register{
+    width: auto;
+    padding: 5px;
+    background-color:black;
+    color: #fff;
+    font-size: 13px;
+    font-weight:500;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.slides{
+width: 90%;
+min-height: 700px;
+top: 0;
+margin-left: 17px;
+}
+.slides img{
+    width: 1503px;
+    height: 700px;  
+}
+.slides button{
+position:absolute;
+color: #fff;
+background: none;
+border: none;
+font-size: 30px;
+overflow: hidden;
+}
+#bts{
+    margin-top: 25%;
+    margin-left: 50px;
+}
+#bt{
+    right: 70px;
+    margin-top: 26%;
+}
+#play{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: red;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: -7%;
+    border-radius: 5px;
+}
+.frequent-services{
+width: 100%;
+height: auto;
+background-color: black;
+padding: 10px;
+margin-top: 50px;
+}
+.frequent-services h2{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.free{
+    display: inline;
+}
+.frequent-services button{
+color: #fff;
+font-size: 13px;
+width: 150px;
+height: 30px;
+text-align: center;
+margin-top: -20px;
+font-weight: 500;
+background-color: transparent;
+border: none;
+right: 20px;
+position:absolute;
+}
+.img{
+    display: flex;
+    margin-top: 20px;
+}
+.img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+#v9{
+    margin-left: 100px; 
+}
+.videos{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 10px;
+    margin-top: 10px;
+}
+.videos h2{
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+.free{
+    display: inline;
+}
+.videos button{
+color: #fff;
+font-size: 13px;
+width: 150px;
+height: 30px;
+text-align: center;
+margin-top: -20px;
+font-weight: 500;
+background-color: transparent;
+border: none;
+right: 20px;
+position:absolute;
+}
+.video{
+    display: flex;
+}
+.card h4{
+    color: #fff;
+    margin-top: 5px;
+    text-align: center;
+}
+.video img{
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#vid-bts{
+    position: absolute;
+    color: #fff;
+    left: -40px;
+    font-size: 30px;
+    margin-top: 80px;
+}
+#vid-bt{
+    position: absolute;
+    color: #fff;
+    right: -40px;
+    font-size: 30px;
+    margin-top: 80px;    
+}
+#live{
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px; 
+}
+.footer{
+    width: 100%;
+    height: auto;
+}
+.buts{
+    margin-top: 50px;
+    margin-left: 200px;
+    display: flex;
+}
+.icons{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    float: right;
+    margin-right: 200px;
+}
+.icons a .fa-brands{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.footer p{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}

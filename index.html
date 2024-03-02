@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIUSASA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+</head>
+<body>
+<div class="header">
+<img src="viusasa_logo.png" alt="logo" class="logo">
+<nav>
+<ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Videos</a></li>
+    <li><a href="#">Duka</a></li>
+    <li><a href="#">Music <img src="down-icon.png" alt="dropdown"></a></li>
+    <li><a href="#">Radio</a></li>
+    <li><a href="#">TV</a></li>
+    <li><a href="#">Gospel Center</a></li>
+    <li><a href="#">News</a></li>
+    <li><a href="#">KidsViu</a></li>
+</ul>
+</nav>
+<div class="buttons">
+<button class="search"><i class="fa-solid fa-search"></i></button>
+<button class="pay">PAY</button>
+<button class="signIn">Sign In</button>
+<button class="Register">Register</button>
+</div>
+</div>
+<div class="slides">
+    <div class="con-img"> 
+        <button onclick="prev()" id="bts">&#10094;</button>
+        <button onclick="next()" id="bt">&#10095;</button>
+        <img   id='slider' src="v1.jpg" alt="v1" width='200px' height='100px'/>
+        <center>
+            <button id="play">Play</button>
+        </center>
+        </div>  
+        </div>  
+<div class="frequent-services">
+<div class="free">
+<h2>Frequent Services</h2>
+<button id="view-more">View more</button>
+</div>
+<div class="img">
+<img src="Citizen-Duka.jpg" alt="Citizen">
+<img src="v9.jpg" alt="bills" id="v9">
+</div>
+</div>
+
+<div class="videos">
+    <div class="free">
+    <h2>Videos</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="b1.jpg" alt="b1">
+<h4>Soaps</h4>
+</div>
+<div class="card">
+<img src="b2.jpg" alt="b2">
+<h4>Church Sermons</h4>
+</div>
+<div class="card">
+<img src="b3.jpg" alt="b3">
+<h4>Dramas</h4>
+</div>
+<div class="card">
+<img src="b4.png" alt="b4">
+<h4>Musical</h4>
+</div>
+<div class="card">
+<img src="b5.jpg" alt="b5">
+<h4>Comedy</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+<div class="videos">
+    <div class="free">
+    <h2>News</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="c1.jpg" alt="b1">
+<h4>Top News</h4>
+</div>
+<div class="card">
+<img src="c2.jpg" alt="b2">
+<h4>Politics</h4>
+</div>
+<div class="card">
+<img src="c3.jpg" alt="b3">
+<h4>Bulletins</h4>
+</div>
+<div class="card">
+<img src="c4.jpg" alt="b4">
+<h4>World</h4>
+</div>
+<div class="card">
+<img src="c5.jpg" alt="b5">
+<h4>Sizzling Hot</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+
+<div class="videos">
+    <div class="free">
+    <h2>Kids Viu</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="d1.jpg" alt="b1">
+<h4>Society</h4>
+</div>
+<div class="card">
+<img src="d2.jpg" alt="b2">
+<h4>Kidsviu Musical</h4>
+</div>
+<div class="card">
+<img src="d3.jpg" alt="b3">
+<h4>Kidsviu Edutainment</h4>
+</div>
+<div class="card">
+<img src="d4.jpg" alt="b4">
+<h4>Kidsviu Action</h4>
+</div>
+<div class="card">
+<img src="d5.jpg" alt="b5">
+<h4>Kidsviu Movies</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+<div class="videos">
+    <div class="free">
+    <h2>Music</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="e1.jpg" alt="b1">
+<h4>Gengetone</h4>
+</div>
+<div class="card">
+<img src="e2.jpg" alt="b2">
+<h4>Rnb</h4>
+</div>
+<div class="card">
+<img src="e3.jpg" alt="b3">
+<h4>Kenya Late 200 Tbt Mixes</h4>
+</div>
+<div class="card">
+<img src="e4.jpg" alt="b4">
+<h4>Local Gospel</h4>
+</div>
+<div class="card">
+<img src="e5.jpg" alt="b5">
+<h4>Top 100 Kenyan Rnb Hits</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+<div class="videos">
+    <div class="free">
+    <h2>Datapass</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="b3.jpg" alt="b1">
+<h4>Bulletins</h4>
+</div>
+<div class="card">
+<img src="w3.jpg" alt="b2">
+<h4>Los Ricos</h4>
+</div>
+<div class="card">
+<img src="b1.jpg" alt="b3">
+<h4>Sultana</h4>
+</div>
+<div class="card">
+<img src="w1.jpg" alt="b4">
+<h4>Kundali Bhagya</h4>
+</div>
+<div class="card">
+<img src="w4.jpg" alt="b5">
+<h4>Skoolflix</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+<div class="videos">
+    <div class="free">
+    <h2>Skoolflix</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="s1.jpg" alt="b1">
+<h4>By Schools In Central</h4>
+</div>
+<div class="card">
+<img src="s2.jpg" alt="b2">
+<h4>By Schools In Nairobi</h4>
+</div>
+<div class="card">
+<img src="s3.jpg" alt="b3">
+<h4>By Schools In Eastern</h4>
+</div>
+<div class="card">
+<img src="s4.jpg" alt="b4">
+<h4>By Schools In Nyanza</h4>
+</div>
+<div class="card">
+<img src="s5.jpg" alt="b5">
+<h4>By Schools In Western</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+<div class="videos">
+    <div class="free">
+    <h2>TV</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="t2.jpeg" alt="b1">
+<h4>Citizen</h4>
+</div>
+<div class="card">
+<img src="t4.jpg" alt="b2">
+<h4>Inooro Tv</h4>
+</div>
+<div class="card">
+<img src="t5.jpeg" alt="b3">
+<h4>Ramogi Fm</h4>
+</div>
+<div class="card">
+<img src="t3.png" alt="b4">
+<h4>Aljazeera</h4>
+</div>
+<div class="card">
+<img src="t1.jpeg" alt="b5">
+<h4>Citizen Extra</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+
+<div class="videos">
+    <div class="free">
+    <h2>Radio</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="Eg1.jpeg" alt="b1">
+<h4>Egesa Fm</h4>
+</div>
+<div class="card">
+<img src="Eg2.jpeg" alt="b2">
+<h4>Inooro Fm</h4>
+</div>
+<div class="card">
+<img src="Eg3.jpeg" alt="b3">
+<h4>Radio Citizen</h4>
+</div>
+<div class="card">
+<img src="Eg4.jpeg" alt="b4">
+<h4>Ramogi Fm</h4>
+</div>
+<div class="card">
+<img src="Eg5.jpeg" alt="b5">
+<h4>Hot96 Fm</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+
+
+<div class="frequent-services">
+<div class="free">
+<h2>Live Events</h2>
+<button id="view-more">View more</button>
+</div>
+<div class="img">
+<img src="l1.jpg" alt="Citizen" id="live">
+<img src="l2.jpg" alt="bills" id="live">
+<img src="l3.jpg" alt="bills" id="live">
+</div>
+</div>
+
+
+<div class="videos">
+    <div class="free">
+    <h2>Gospel Center</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+    <button  id="vid-bts">&#10094;</button>
+<div class="card">
+<img src="g1.jpg" alt="b1">
+<h4>Church Sermons</h4>
+</div>
+<div class="card">
+<img src="g3.jpg" alt="b2">
+<h4>International Gospel Hits</h4>
+</div>
+<div class="card">
+<img src="g2.jpeg" alt="b3">
+<h4>Gospel Vernacular Playlists</h4>
+</div>
+<div class="card">
+<img src="g4.jpg" alt="b4">
+<h4>Best of Hillsong Worship</h4>
+</div>
+<div class="card">
+<img src="g5.jpg" alt="b5">
+<h4>Gospel Praise</h4>
+</div>
+<button id="vid-bt">&#10095;</button>
+</div>
+</div>
+
+
+<div class="videos">
+    <div class="free">
+    <h2>Games</h2>
+    <button id="view-more">View more</button>
+    </div>
+<div class="video">
+<div class="card">
+<img src="vr1.jpg" alt="b1">
+<h4>Virtual Penalty Shootout</h4>
+</div>
+<div class="card">
+<img src="vr2.png" alt="b2">
+<h4>Defender</h4>
+</div>
+</div>
+</div>
+
+<div class="footer">
+<div class="buts">
+<a  href="http://www.googleplay.com"><img src="googleplay.png" alt="googleplay"></a>
+<a  href="http://www.itunes.com"><img src="itunes.png" alt="itunes"></a>
+</div>
+<div class="icons">
+<a href="http://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+<a href="http://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+<a href="http://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+<a href="http://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+<a href="http://www.linkein.com"><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<p>Copyright 2023 Content Aggregation Limited.All Rights Reserved | Terms and Conditions</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+        /*-------collect--number-of-images-in-an-array-----*/
+        var images = ["v1.jpg","v2.jpg","v3.jpg","v4.jpg","v5.jpg","v6.jpg","v7.jpg","v8.jpg"];
+        var num = 0;
+        function next(){
+        var slider = document.getElementById("slider");
+        num++;
+        if(num >= images.length){
+        num=0;
+        }
+        slider.src=images[num];
+        }
+        setInterval(next, 1500);
+        function prev(){
+        var slider = document.getElementById("slider");
+        num--;
+        if(num < 0){
+        num = images.length-1;
+        }
+        slider.src=images[num];
+        }  
+        </script>
+</body>
+</html>
